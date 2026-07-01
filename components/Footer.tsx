@@ -16,7 +16,7 @@ export default function Footer() {
             className="object-contain object-left"
           />
           <p className="text-xs text-warm-grey leading-relaxed">
-            Online 1-to-1 Pilates coaching, wherever you are.
+            Private Pilates & fitness coaching — Saint-Tropez & Courchevel.
           </p>
         </div>
 

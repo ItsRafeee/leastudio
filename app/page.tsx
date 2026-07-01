@@ -35,8 +35,8 @@ export default function Home() {
       <section className="w-full bg-sage py-14 px-8 md:px-16">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-warm-grey text-base md:text-lg font-light leading-relaxed mb-8">
-            Personal online Pilates coaching with Léa — 1-to-1 weekly sessions
-            designed around your body, your schedule, and your goals.
+            Private Pilates & fitness coaching with Léa — 1-to-1 sessions
+            designed around your body, your lifestyle, and your goals.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

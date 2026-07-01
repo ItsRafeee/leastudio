@@ -73,8 +73,7 @@ export default function ContactPage() {
               </div>
 
               <p className="text-xs text-warm-grey mt-8 leading-relaxed">
-                Léa typically responds within 24 hours. Sessions take place online —
-                no need to be based locally.
+                Léa typically responds within 24 hours. Sessions take place in Saint-Tropez and Courchevel — at your villa, chalet, yacht, or hotel.
               </p>
             </div>
           </div>

@@ -19,10 +19,10 @@ const services = [
     pricing: "€120 / session — or €95 / session on a daily weekly programme",
   },
   {
-    location: "Private & Online",
-    title: "Private Fitness & Online Coaching",
+    location: "Private",
+    title: "Private Fitness Coaching",
     description:
-      "Available at your home, hotel, or via video call — wherever you are in the world. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
+      "Available at your home, hotel, or private residence — wherever you are. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
     pricing: "€120 / session — or €95 / session on a daily weekly programme",
   },
 ];
@@ -93,7 +93,7 @@ export default function AboutPage() {
                   entirely private, and built around your body and your goals.
                 </p>
                 <p>
-                  Léa works in Saint-Tropez, Courchevel, and online, adapting seamlessly
+                  Léa works in Saint-Tropez and Courchevel, adapting seamlessly
                   to your location and lifestyle. Whether you prefer Pilates Mat, Reformer,
                   strength and toning, or mobility work, each session is designed from scratch
                   for you — never a template, never a compromise.
