@@ -1,12 +1,9 @@
 import Image from "next/image";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 import { Mail, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <div className="flex flex-col flex-1">
-      <Nav />
+    <>
 
       {/* Contact — image left, details right, starts below fixed nav */}
       <section className="w-full bg-white pt-36 pb-20">
@@ -81,7 +78,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <Footer />
-    </div>
+    </>
   );
 }

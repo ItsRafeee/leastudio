@@ -1,12 +1,9 @@
 import Image from "next/image";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function MeetLeaPage() {
   return (
-    <div className="flex flex-col flex-1">
-      <Nav />
+    <>
 
       {/* Hero — image left, intro text right, starts below fixed nav */}
       <section className="w-full bg-white pt-36 pb-20">
@@ -112,7 +109,6 @@ export default function MeetLeaPage() {
         </div>
       </section>
 
-      <Footer />
-    </div>
+    </>
   );
 }

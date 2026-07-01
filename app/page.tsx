@@ -1,14 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1">
-      <Nav />
-
-      {/* Hero — full-bleed image00001.jpeg, logo + tagline centered */}
+    <>
+      {/* Hero — full-bleed, logo + tagline centered */}
       <section className="w-full relative h-[60vh] md:h-screen">
         <Image
           src="/Home.jpeg"
@@ -17,13 +13,11 @@ export default function Home() {
           className="object-cover object-center"
           priority
         />
-        {/* Subtle overlay so logo and text read clearly */}
         <div className="absolute inset-0 bg-black/25" />
-        {/* Centered logo + tagline */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-8">
           <Image
             src="/Logo.png"
-            alt="Wellness Studio"
+            alt="Lea Studio"
             width={700}
             height={467}
             className="object-contain brightness-0 invert mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]"
@@ -57,8 +51,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </div>
+    </>
   );
 }

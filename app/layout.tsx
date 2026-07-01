@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Lea Studio — Online 1-to-1 Pilates Coaching",
@@ -26,7 +28,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-sage min-h-screen flex flex-col text-charcoal">{children}</body>
+      <body className="bg-sage min-h-screen flex flex-col text-charcoal">
+        <Nav />
+        <main className="flex-1 flex flex-col">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }

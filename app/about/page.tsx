@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 
 const approaches = [
   {
@@ -41,8 +39,7 @@ const benefits = [
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col flex-1">
-      <Nav />
+    <>
 
       {/* Page header — starts below fixed nav (pt-28 ≈ nav height) */}
       <div className="w-full bg-white pt-36 pb-10 px-8 md:px-16 border-b border-sage">
@@ -164,7 +161,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
-    </div>
+    </>
   );
 }
