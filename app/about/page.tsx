@@ -3,6 +3,30 @@ import Image from "next/image";
 
 export const metadata: Metadata = { title: "About | Lea Studio" };
 
+const services = [
+  {
+    location: "Saint-Tropez",
+    title: "Private Pilates & Reformer Coaching",
+    description:
+      "Léa travels directly to your villa, yacht, or hotel for a private 50-minute session in Pilates Mat or Reformer. Where no Reformer is available on site, sessions can take place at a premium partner studio nearby.",
+    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+  },
+  {
+    location: "Courchevel",
+    title: "Private Pilates & Reformer Coaching",
+    description:
+      "The same personalised format brought to your chalet, hotel, or private residence. 50-minute one-to-one sessions — Pilates Mat or Reformer — fully adapted to your level, your goals, and the pace of your stay.",
+    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+  },
+  {
+    location: "Private & Online",
+    title: "Private Fitness & Online Coaching",
+    description:
+      "Available at your home, hotel, or via video call — wherever you are in the world. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
+    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+  },
+];
+
 const approaches = [
   {
     name: "Sculpt & Define",
@@ -43,46 +67,41 @@ const benefits = [
 export default function AboutPage() {
   return (
     <>
-
-      {/* Page header — starts below fixed nav (pt-28 ≈ nav height) */}
+      {/* Page header */}
       <div className="w-full bg-white pt-36 pb-10 px-8 md:px-16 border-b border-sage">
         <div className="max-w-5xl mx-auto">
           <h1 className="font-serif text-3xl md:text-4xl text-charcoal">About</h1>
           <p className="text-warm-grey text-sm tracking-widest uppercase mt-2 font-light">
-            Online 1-to-1 Pilates coaching with Léa
+            Private Pilates &amp; fitness coaching with Léa
           </p>
         </div>
       </div>
 
-      {/* The approach — text left, portrait image right */}
+      {/* Services — intro text left, image right */}
       <section className="w-full bg-white py-20">
         <div className="max-w-5xl mx-auto px-8 md:px-16">
           <div className="grid md:grid-cols-2 gap-14 md:gap-20 items-center">
             <div>
               <p className="text-xs tracking-widest uppercase text-warm-grey mb-4">The approach</p>
               <h2 className="font-serif text-3xl md:text-4xl text-charcoal mb-8 leading-snug">
-                Private sessions,<br />on your terms
+                Private sessions,<br />wherever you are
               </h2>
               <div className="space-y-5 text-warm-grey leading-relaxed">
                 <p>
-                  Lea Studio offers personal online Pilates coaching in a completely
-                  private, one-to-one format. Every session takes place via video call,
-                  which means you can work with Léa from the comfort of your own home —
-                  no commute, no shared class, no compromise.
+                  Lea Studio brings expert Pilates and fitness coaching directly to you —
+                  at your villa, chalet, yacht, hotel, or home. Every session is 50 minutes,
+                  entirely private, and built around your body and your goals.
                 </p>
                 <p>
-                  Sessions are scheduled on a weekly basis. You and Léa agree on a rhythm
-                  that works for your life — one session per week, two, or more — and that
-                  rhythm becomes your practice. Pricing reflects your level of commitment:
-                  the more sessions per week and the longer each session, the more
-                  personalised your rate. There are no rigid packages; everything is
-                  discussed and agreed between you.
+                  Léa works in Saint-Tropez, Courchevel, and online, adapting seamlessly
+                  to your location and lifestyle. Whether you prefer Pilates Mat, Reformer,
+                  strength and toning, or mobility work, each session is designed from scratch
+                  for you — never a template, never a compromise.
                 </p>
                 <p>
-                  Each programme is built around your individual goals, movement history,
-                  and current physical needs. Whether you are looking to build strength,
-                  recover from injury, improve posture, or simply develop a movement
-                  practice that feels right for your body — Lea Studio works around you.
+                  Sessions are available individually or as part of a daily weekly programme,
+                  with preferential pricing for regular commitment. Everything is discussed
+                  and agreed directly with Léa.
                 </p>
               </div>
             </div>
@@ -99,8 +118,33 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Session approaches */}
+      {/* Services — 3 blocks */}
       <section className="w-full bg-sage py-20">
+        <div className="max-w-5xl mx-auto px-8 md:px-16">
+          <div className="mb-14">
+            <p className="text-xs tracking-widest uppercase text-warm-grey mb-3">Services</p>
+            <h2 className="font-serif text-3xl md:text-4xl text-charcoal">
+              Three ways to work with Léa
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {services.map((s) => (
+              <div key={s.location} className="bg-white p-8 flex flex-col gap-4">
+                <p className="text-xs tracking-widest uppercase text-warm-grey">{s.location}</p>
+                <h3 className="font-serif text-xl text-charcoal leading-snug">{s.title}</h3>
+                <p className="text-warm-grey text-sm leading-relaxed flex-1">{s.description}</p>
+                <div className="border-t border-sage pt-4">
+                  <p className="text-xs text-charcoal font-medium">{s.pricing}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Session approaches */}
+      <section className="w-full bg-white py-20">
         <div className="max-w-5xl mx-auto px-8 md:px-16">
           <div className="mb-14">
             <p className="text-xs tracking-widest uppercase text-warm-grey mb-3">Session types</p>
@@ -111,7 +155,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {approaches.map((a) => (
-              <div key={a.name} className="bg-white flex flex-col">
+              <div key={a.name} className="bg-sage flex flex-col">
                 <Image
                   src={a.image}
                   alt={`Léa — ${a.name}`}
@@ -123,7 +167,7 @@ export default function AboutPage() {
                   <p className="text-xs tracking-widest uppercase text-warm-grey">{a.tagline}</p>
                   <h3 className="font-serif text-xl text-charcoal">{a.name}</h3>
                   <p className="text-warm-grey text-sm leading-relaxed flex-1">{a.description}</p>
-                  <p className="text-xs text-warm-grey italic border-t border-sage pt-4">{a.note}</p>
+                  <p className="text-xs text-warm-grey italic border-t border-sage-dark pt-4">{a.note}</p>
                 </div>
               </div>
             ))}
@@ -132,7 +176,7 @@ export default function AboutPage() {
       </section>
 
       {/* Benefits */}
-      <section className="w-full bg-white py-20">
+      <section className="w-full bg-sage py-20">
         <div className="max-w-5xl mx-auto px-8 md:px-16">
           <div className="grid md:grid-cols-2 gap-14 md:gap-20 items-center">
             <div>
@@ -163,7 +207,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
     </>
   );
 }
