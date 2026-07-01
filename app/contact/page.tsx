@@ -1,12 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { Mail, Phone } from "lucide-react";
+
+export const metadata: Metadata = { title: "Contact | Lea Studio" };
 
 export default function ContactPage() {
   return (
     <>
 
       {/* Contact — image left, details right, starts below fixed nav */}
-      <section className="w-full bg-white pt-36 pb-20">
+      <section className="w-full bg-white pt-36 pb-20 flex-1">
         <div className="max-w-5xl mx-auto px-8 md:px-16">
           <div className="grid md:grid-cols-2 gap-14 md:gap-20 items-center">
             <div>
