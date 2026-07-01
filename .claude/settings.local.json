@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\rafae\\\\Documents\\\\websites\\\\wellnessstudio\\\\components\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\rafae\\\\Documents\\\\websites\\\\wellnessstudio\\\\app\\\\about\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\rafae\\\\Documents\\\\websites\\\\wellnessstudio\\\\app\\\\meet-lea\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\rafae\\\\Documents\\\\websites\\\\wellnessstudio\\\\app\\\\live-classes\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\rafae\\\\Documents\\\\websites\\\\wellnessstudio\\\\app\\\\contact\")",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "Bash(npm run *)"
+    ]
+  }
+}
