@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Lea Studio | Private Pilates & Fitness Coaching",
+    "description": "Private Pilates & fitness coaching with Léa. 1-to-1 sessions in Saint-Tropez and Courchevel, tailored to your body and your goals."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "meetLea": "Meet Léa",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Private Pilates & fitness coaching. Saint-Tropez & Courchevel.",
+    "explore": "Explore",
+    "studio": "Studio",
+    "copyright": "© {year} Lea Studio. All rights reserved."
+  },
+  "home": {
+    "title": "Lea Studio",
+    "tagline": "Move with intention  •  Restore with purpose",
+    "intro": "Private Pilates & fitness coaching with Léa. 1-to-1 sessions designed around your body, your lifestyle, and your goals.",
+    "ctaDiscover": "Discover the Studio",
+    "ctaContact": "Get in Touch"
+  },
+  "about": {
+    "metaTitle": "About | Lea Studio",
+    "pageTitle": "About",
+    "pageSubtitle": "Private Pilates & fitness coaching with Léa",
+    "approachLabel": "The approach",
+    "approachHeading": "Private sessions, wherever you are",
+    "intro1": "Lea Studio brings expert Pilates and fitness coaching directly to you, at your villa, chalet, yacht, hotel, or home. Every session is 50 minutes, entirely private, and built around your body and your goals.",
+    "intro2": "Léa works in Saint-Tropez and Courchevel, adapting seamlessly to your location and lifestyle. Whether you prefer Pilates Mat, Reformer, strength and toning, or mobility work, each session is designed from scratch for you. Never a template, never a compromise.",
+    "intro3": "Sessions are available individually or as part of a daily weekly programme, with preferential pricing for regular commitment. Everything is discussed and agreed directly with Léa.",
+    "servicesLabel": "Services",
+    "servicesHeading": "Three ways to work with Léa",
+    "services": [
+      {
+        "location": "Saint-Tropez",
+        "title": "Private Pilates & Reformer Coaching",
+        "description": "Léa travels directly to your villa, yacht, or hotel for a private 50-minute session in Pilates Mat or Reformer. Where no Reformer is available on site, sessions can take place at a premium partner studio nearby.",
+        "pricing": "€120 / session, or €95 / session on a daily weekly programme"
+      },
+      {
+        "location": "Courchevel",
+        "title": "Private Pilates & Reformer Coaching",
+        "description": "The same personalised format brought to your chalet, hotel, or private residence. 50-minute one-to-one sessions, Pilates Mat or Reformer, fully adapted to your level, your goals, and the pace of your stay.",
+        "pricing": "€120 / session, or €95 / session on a daily weekly programme"
+      },
+      {
+        "location": "Private",
+        "title": "Private Fitness Coaching",
+        "description": "Available at your home, hotel, or private residence, wherever you are. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
+        "pricing": "€120 / session, or €95 / session on a daily weekly programme"
+      }
+    ],
+    "approachesLabel": "Session types",
+    "approachesHeading": "Three approaches to movement",
+    "approaches": [
+      {
+        "name": "Sculpt & Define",
+        "tagline": "Strength through precision",
+        "description": "A focused full-body session centred on core stability, muscle endurance, and refined movement control. Each exercise is performed with intentionality: slower, deeper, more effective. For anyone ready to build genuine strength without impact or bulk.",
+        "note": "Suitable for all levels with appropriate modification."
+      },
+      {
+        "name": "Flow & Release",
+        "tagline": "Movement meets restoration",
+        "description": "A carefully sequenced blend of flowing Pilates movement and targeted stretching. This session addresses areas of tension, improves range of motion, and trains the body to move as an integrated whole. You will finish feeling both challenged and restored.",
+        "note": "Suitable for all levels with appropriate modification."
+      },
+      {
+        "name": "Foundation",
+        "tagline": "The perfect place to begin",
+        "description": "A step-by-step introduction to Pilates principles: breathing, spinal alignment, pelvic stability, and postural awareness. No prior experience required. An essential starting point for anyone new, returning after a break, or recovering from injury.",
+        "note": "Ideal for beginners and those returning to movement."
+      }
+    ],
+    "benefitsLabel": "Why Pilates",
+    "benefitsHeading": "The benefits",
+    "benefits": [
+      "Improved posture and spinal alignment through consistent mindful movement",
+      "Increased core strength, targeting deep stabilising muscles rarely reached in conventional exercise",
+      "Greater body awareness, helping you move more efficiently in daily life",
+      "Reduced muscle tension and relief from chronic tightness, particularly in the back and hips",
+      "Better balance, coordination, and overall functional fitness",
+      "Enhanced breathing capacity and nervous system regulation",
+      "A consistent, sustainable movement practice, adapted to you, not the other way around"
+    ]
+  },
+  "meetLea": {
+    "metaTitle": "Meet Léa | Lea Studio",
+    "coachLabel": "Your coach",
+    "heading": "Meet Léa",
+    "bio1": "Léa teaches Pilates with a focus on precision, adaptability, and the individual, working with clients of all ages, backgrounds, and movement histories. Her approach is rooted in the belief that good movement should feel as natural and accessible as possible. The most powerful sessions are the ones built entirely around the person in front of her.",
+    "bio2": "Having trained and worked in both studio and clinical environments, Léa brings a genuine understanding of how the body moves, adapts, and recovers. She is particularly drawn to working with clients who are starting out, returning after injury, or looking to develop a sustainable practice they can carry with them long-term.",
+    "quote": "Movement is not a performance. It is a conversation between you and your body. I am here to help you listen.",
+    "approachLabel": "Approach",
+    "approachHeading": "Teaching from the inside out",
+    "approach1": "What makes Lea Studio different is the depth of attention each client receives. There are no class templates here. Every session is drawn from scratch, informed by how you are feeling that day, what your body is telling you, and where you want to go.",
+    "approach2": "Léa teaches with patience, precision, and a good deal of warmth. She believes deeply that movement should be a source of pleasure, not punishment. The right practice, done consistently, changes everything.",
+    "approach3": "When she is not teaching, you will likely find her exploring new movement practices, spending time in nature, or experimenting in the kitchen.",
+    "ctaText": "Ready to start your practice? Léa would love to hear from you.",
+    "ctaButton": "Work with Léa"
+  },
+  "contact": {
+    "metaTitle": "Contact | Lea Studio",
+    "sayHello": "Say hello",
+    "heading": "Get in Touch",
+    "intro": "Have a question about Lea Studio? Ready to book your first session? Reach out directly. No forms, no waiting rooms.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone / WhatsApp",
+    "note": "Léa typically responds within 24 hours. Sessions take place in Saint-Tropez and Courchevel, at your villa, chalet, yacht, or hotel."
+  }
+}

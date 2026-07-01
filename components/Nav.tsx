@@ -4,54 +4,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/meet-lea", label: "Meet Léa" },
-  { href: "/contact", label: "Contact" },
-];
-
-const leftLinks = links.slice(0, 2);
-const rightLinks = links.slice(2);
-
-function NavLink({
-  href,
-  label,
-  transparent,
-  onClick,
-}: {
-  href: string;
-  label: string;
-  transparent: boolean;
-  onClick?: () => void;
-}) {
-  const pathname = usePathname();
-  const active = pathname === href;
-  return (
-    <Link
-      href={href}
-      onClick={onClick}
-      className={`text-xs tracking-widest uppercase font-sans transition-colors duration-200 whitespace-nowrap ${
-        active
-          ? transparent
-            ? "text-white border-b border-white pb-0.5 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)]"
-            : "text-charcoal border-b border-charcoal pb-0.5"
-          : transparent
-          ? "text-white/85 hover:text-white [text-shadow:0_1px_4px_rgba(0,0,0,0.7)]"
-          : "text-warm-grey hover:text-charcoal"
-      }`}
-    >
-      {label}
-    </Link>
-  );
-}
+import { useTranslations } from "next-intl";
 
 export default function Nav() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === "/" || /^\/[a-z]{2}$/.test(pathname);
+
+  const links = [
+    { href: "/", label: t("home") },
+    { href: "/about", label: t("about") },
+    { href: "/meet-lea", label: t("meetLea") },
+    { href: "/contact", label: t("contact") },
+  ];
+
+  const leftLinks = links.slice(0, 2);
+  const rightLinks = links.slice(2);
 
   useEffect(() => {
     if (!isHome) return;
@@ -61,7 +31,6 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, [isHome]);
 
-  // Close menu on route change
   useEffect(() => { setMenuOpen(false); }, [pathname]);
 
   const transparent = isHome && !scrolled && !menuOpen;
@@ -81,7 +50,7 @@ export default function Nav() {
             ))}
           </nav>
 
-          {/* Logo */}
+          {/* Logo — centered on mobile, normal flow on desktop */}
           <Link href="/" className="flex-shrink-0 absolute left-1/2 -translate-x-1/2 md:static md:left-auto md:translate-x-0">
             <Image
               src="/LogoBar.png"
@@ -134,5 +103,34 @@ export default function Nav() {
         </div>
       )}
     </>
+  );
+}
+
+function NavLink({
+  href,
+  label,
+  transparent,
+}: {
+  href: string;
+  label: string;
+  transparent: boolean;
+}) {
+  const pathname = usePathname();
+  const active = pathname === href || pathname.endsWith(href === "/" ? "" : href);
+  return (
+    <Link
+      href={href}
+      className={`text-xs tracking-widest uppercase font-sans transition-colors duration-200 whitespace-nowrap ${
+        active
+          ? transparent
+            ? "text-white border-b border-white pb-0.5 [text-shadow:0_1px_4px_rgba(0,0,0,0.7)]"
+            : "text-charcoal border-b border-charcoal pb-0.5"
+          : transparent
+          ? "text-white/85 hover:text-white [text-shadow:0_1px_4px_rgba(0,0,0,0.7)]"
+          : "text-warm-grey hover:text-charcoal"
+      }`}
+    >
+      {label}
+    </Link>
   );
 }

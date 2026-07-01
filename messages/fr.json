@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Lea Studio | Coaching Pilates & Fitness Privé",
+    "description": "Coaching Pilates & fitness privé avec Léa. Séances individuelles à Saint-Tropez et Courchevel, adaptées à votre corps et à vos objectifs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "meetLea": "Rencontrer Léa",
+    "contact": "Contact"
+  },
+  "footer": {
+    "tagline": "Coaching Pilates & fitness privé. Saint-Tropez & Courchevel.",
+    "explore": "Explorer",
+    "studio": "Studio",
+    "copyright": "© {year} Lea Studio. Tous droits réservés."
+  },
+  "home": {
+    "title": "Lea Studio",
+    "tagline": "Bougez avec intention  •  Retrouvez votre équilibre",
+    "intro": "Coaching Pilates & fitness privé avec Léa. Séances individuelles conçues autour de votre corps, votre mode de vie et vos objectifs.",
+    "ctaDiscover": "Découvrir le Studio",
+    "ctaContact": "Prendre contact"
+  },
+  "about": {
+    "metaTitle": "À propos | Lea Studio",
+    "pageTitle": "À propos",
+    "pageSubtitle": "Coaching Pilates & fitness privé avec Léa",
+    "approachLabel": "L'approche",
+    "approachHeading": "Séances privées, où que vous soyez",
+    "intro1": "Lea Studio apporte un coaching Pilates & fitness expert directement chez vous, dans votre villa, chalet, yacht, hôtel ou domicile. Chaque séance dure 50 minutes, est entièrement privée et conçue autour de votre corps et de vos objectifs.",
+    "intro2": "Léa intervient à Saint-Tropez et Courchevel, en s'adaptant parfaitement à votre lieu et à votre style de vie. Pilates Mat, Reformer, renforcement musculaire, tonification ou mobilité, chaque séance est élaborée sur mesure pour vous. Jamais de modèle préétabli, jamais de compromis.",
+    "intro3": "Les séances sont disponibles à l'unité ou dans le cadre d'un programme quotidien hebdomadaire, avec un tarif préférentiel pour un engagement régulier. Tout est discuté et convenu directement avec Léa.",
+    "servicesLabel": "Services",
+    "servicesHeading": "Trois façons de travailler avec Léa",
+    "services": [
+      {
+        "location": "Saint-Tropez",
+        "title": "Coaching Pilates & Reformer Privé",
+        "description": "Léa se déplace directement à votre villa, yacht ou hôtel pour une séance privée de 50 minutes en Pilates Mat ou Reformer. Si aucun Reformer n'est disponible sur place, les séances peuvent avoir lieu dans un studio partenaire premium à proximité.",
+        "pricing": "120 € / séance, ou 95 € / séance dans le cadre d'un programme quotidien hebdomadaire"
+      },
+      {
+        "location": "Courchevel",
+        "title": "Coaching Pilates & Reformer Privé",
+        "description": "Le même format personnalisé dans votre chalet, hôtel ou résidence privée. Séances individuelles de 50 minutes, Pilates Mat ou Reformer, entièrement adaptées à votre niveau, vos objectifs et au rythme de votre séjour.",
+        "pricing": "120 € / séance, ou 95 € / séance dans le cadre d'un programme quotidien hebdomadaire"
+      },
+      {
+        "location": "Privé",
+        "title": "Coaching Fitness Privé",
+        "description": "Disponible à votre domicile, hôtel ou résidence privée, où que vous soyez. Séances de 50 minutes entièrement personnalisées couvrant renforcement musculaire, tonification, mobilité, correction posturale ou préparation physique, conçues autour des besoins de votre corps.",
+        "pricing": "120 € / séance, ou 95 € / séance dans le cadre d'un programme quotidien hebdomadaire"
+      }
+    ],
+    "approachesLabel": "Types de séances",
+    "approachesHeading": "Trois approches du mouvement",
+    "approaches": [
+      {
+        "name": "Sculpter & Définir",
+        "tagline": "La force par la précision",
+        "description": "Une séance complète centrée sur la stabilité du tronc, l'endurance musculaire et le contrôle du mouvement. Chaque exercice est réalisé avec intentionnalité : plus lent, plus profond, plus efficace. Pour celles et ceux prêts à développer une vraie force sans impact ni volume.",
+        "note": "Adapté à tous les niveaux avec les modifications appropriées."
+      },
+      {
+        "name": "Fluidité & Relâchement",
+        "tagline": "Le mouvement rencontre la récupération",
+        "description": "Un enchaînement soigneusement pensé alliant mouvements fluides de Pilates et étirements ciblés. Cette séance traite les zones de tension, améliore l'amplitude de mouvement et apprend au corps à fonctionner comme un tout. Vous terminerez à la fois stimulé et restauré.",
+        "note": "Adapté à tous les niveaux avec les modifications appropriées."
+      },
+      {
+        "name": "Fondations",
+        "tagline": "Le meilleur point de départ",
+        "description": "Une introduction pas à pas aux principes du Pilates : respiration, alignement de la colonne, stabilité pelvienne et conscience posturale. Aucune expérience préalable requise. Un point de départ essentiel pour les débutants, ceux qui reprennent après une pause ou se remettent d'une blessure.",
+        "note": "Idéal pour les débutants et ceux qui reprennent le mouvement."
+      }
+    ],
+    "benefitsLabel": "Pourquoi le Pilates",
+    "benefitsHeading": "Les bienfaits",
+    "benefits": [
+      "Amélioration de la posture et de l'alignement vertébral grâce à un mouvement conscient et régulier",
+      "Renforcement du tronc profond, ciblant les muscles stabilisateurs rarement sollicités dans l'exercice conventionnel",
+      "Meilleure conscience corporelle, pour bouger plus efficacement au quotidien",
+      "Diminution des tensions musculaires et soulagement des raideurs chroniques, notamment dans le dos et les hanches",
+      "Meilleur équilibre, coordination et condition physique fonctionnelle globale",
+      "Amélioration de la capacité respiratoire et régulation du système nerveux",
+      "Une pratique régulière et durable, adaptée à vous, et non l'inverse"
+    ]
+  },
+  "meetLea": {
+    "metaTitle": "Rencontrer Léa | Lea Studio",
+    "coachLabel": "Votre coach",
+    "heading": "Rencontrer Léa",
+    "bio1": "Léa enseigne le Pilates avec un souci de précision, d'adaptabilité et de l'individu, travaillant avec des clients de tous âges, horizons et histoires motrices. Son approche repose sur la conviction que le mouvement doit être aussi naturel et accessible que possible. Les séances les plus puissantes sont celles entièrement construites autour de la personne qui est en face d'elle.",
+    "bio2": "Ayant été formée et ayant exercé dans des environnements studio et cliniques, Léa possède une compréhension authentique de la façon dont le corps bouge, s'adapte et récupère. Elle est particulièrement attirée par les clients qui débutent, reprennent après une blessure ou cherchent à développer une pratique durable à long terme.",
+    "quote": "Le mouvement n'est pas une performance. C'est une conversation entre vous et votre corps. Je suis là pour vous aider à l'écouter.",
+    "approachLabel": "Approche",
+    "approachHeading": "Enseigner de l'intérieur",
+    "approach1": "Ce qui distingue Lea Studio, c'est la profondeur de l'attention accordée à chaque client. Il n'y a pas de modèles de cours ici. Chaque séance est élaborée de zéro, en fonction de votre ressenti ce jour-là, de ce que votre corps vous dit et de là où vous souhaitez aller.",
+    "approach2": "Léa enseigne avec patience, précision et beaucoup de chaleur. Elle croit profondément que le mouvement devrait être une source de plaisir, et non de punition. La bonne pratique, faite régulièrement, change tout.",
+    "approach3": "Quand elle n'enseigne pas, vous la trouverez probablement en train d'explorer de nouvelles pratiques de mouvement, de profiter de la nature ou d'expérimenter en cuisine.",
+    "ctaText": "Prête à commencer votre pratique ? Léa serait ravie de vous entendre.",
+    "ctaButton": "Travailler avec Léa"
+  },
+  "contact": {
+    "metaTitle": "Contact | Lea Studio",
+    "sayHello": "Dire bonjour",
+    "heading": "Prendre contact",
+    "intro": "Une question sur Lea Studio ? Prête à réserver votre première séance ? Contactez directement. Pas de formulaire, pas de salle d'attente.",
+    "emailLabel": "Email",
+    "phoneLabel": "Téléphone / WhatsApp",
+    "note": "Léa répond généralement sous 24 heures. Les séances se déroulent à Saint-Tropez et Courchevel, dans votre villa, chalet, yacht ou hôtel."
+  }
+}
