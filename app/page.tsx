@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col flex-1">
       <Nav />
 
       {/* Hero — full-bleed image00001.jpeg, logo + tagline centered */}

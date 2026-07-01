@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-sage min-h-screen text-charcoal">{children}</body>
+      <body className="bg-sage min-h-screen flex flex-col text-charcoal">{children}</body>
     </html>
   );
 }

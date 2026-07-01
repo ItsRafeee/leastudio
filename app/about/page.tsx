@@ -41,7 +41,7 @@ const benefits = [
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col flex-1">
       <Nav />
 
       {/* Page header — starts below fixed nav (pt-28 ≈ nav height) */}

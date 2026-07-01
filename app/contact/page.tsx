@@ -5,7 +5,7 @@ import { Mail, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col flex-1">
       <Nav />
 
       {/* Contact — image left, details right, starts below fixed nav */}

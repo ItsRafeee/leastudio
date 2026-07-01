@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function MeetLeaPage() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col flex-1">
       <Nav />
 
       {/* Hero — image left, intro text right, starts below fixed nav */}
