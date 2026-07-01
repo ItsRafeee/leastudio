@@ -31,7 +31,7 @@ export default function ContactPage() {
               <div className="w-10 h-px bg-blush mb-8" />
               <p className="text-warm-grey leading-relaxed mb-12 max-w-sm">
                 Have a question about Lea Studio? Ready to book your first session?
-                Reach out directly — no forms, no waiting rooms.
+                Reach out directly. No forms, no waiting rooms.
               </p>
 
               <div className="flex flex-col gap-5">
@@ -73,7 +73,7 @@ export default function ContactPage() {
               </div>
 
               <p className="text-xs text-warm-grey mt-8 leading-relaxed">
-                Léa typically responds within 24 hours. Sessions take place in Saint-Tropez and Courchevel — at your villa, chalet, yacht, or hotel.
+                Léa typically responds within 24 hours. Sessions take place in Saint-Tropez and Courchevel, at your villa, chalet, yacht, or hotel.
               </p>
             </div>
           </div>

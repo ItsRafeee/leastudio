@@ -29,10 +29,10 @@ export default function MeetLeaPage() {
               </h1>
               <div className="w-10 h-px bg-blush mb-8" />
               <p className="text-warm-grey leading-relaxed mb-5">
-                Léa teaches Pilates with a focus on precision, adaptability, and the individual —
+                Léa teaches Pilates with a focus on precision, adaptability, and the individual,
                 working with clients of all ages, backgrounds, and movement histories. Her approach
                 is rooted in the belief that good movement should feel as natural and accessible
-                as possible — and that the most powerful sessions are the ones built entirely
+                as possible. The most powerful sessions are the ones built entirely
                 around the person in front of her.
               </p>
               <p className="text-warm-grey leading-relaxed">
@@ -52,7 +52,7 @@ export default function MeetLeaPage() {
         <div className="max-w-3xl mx-auto">
           <p className="font-serif italic text-sage text-2xl md:text-3xl leading-relaxed mb-6">
             &ldquo;Movement is not a performance. It is a conversation between you
-            and your body — and I am here to help you listen.&rdquo;
+            and your body. I am here to help you listen.&rdquo;
           </p>
           <p className="text-xs tracking-widest uppercase text-sage/50">— Léa</p>
         </div>
@@ -69,14 +69,14 @@ export default function MeetLeaPage() {
               </h2>
               <p>
                 What makes Lea Studio different is the depth of attention each client
-                receives. There are no class templates here — every session is drawn
+                receives. There are no class templates here. Every session is drawn
                 from scratch, informed by how you are feeling that day, what your body
                 is telling you, and where you want to go.
               </p>
               <p>
                 Léa teaches with patience, precision, and a good deal of warmth. She
                 believes deeply that movement should be a source of pleasure, not
-                punishment — and that the right practice, done consistently, changes
+                punishment. The right practice, done consistently, changes
                 everything.
               </p>
               <p>

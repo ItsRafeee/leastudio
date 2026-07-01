@@ -9,21 +9,21 @@ const services = [
     title: "Private Pilates & Reformer Coaching",
     description:
       "Léa travels directly to your villa, yacht, or hotel for a private 50-minute session in Pilates Mat or Reformer. Where no Reformer is available on site, sessions can take place at a premium partner studio nearby.",
-    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+    pricing: "€120 / session, or €95 / session on a daily weekly programme",
   },
   {
     location: "Courchevel",
     title: "Private Pilates & Reformer Coaching",
     description:
-      "The same personalised format brought to your chalet, hotel, or private residence. 50-minute one-to-one sessions — Pilates Mat or Reformer — fully adapted to your level, your goals, and the pace of your stay.",
-    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+      "The same personalised format brought to your chalet, hotel, or private residence. 50-minute one-to-one sessions, Pilates Mat or Reformer, fully adapted to your level, your goals, and the pace of your stay.",
+    pricing: "€120 / session, or €95 / session on a daily weekly programme",
   },
   {
     location: "Private",
     title: "Private Fitness Coaching",
     description:
-      "Available at your home, hotel, or private residence — wherever you are. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
-    pricing: "€120 / session — or €95 / session on a daily weekly programme",
+      "Available at your home, hotel, or private residence, wherever you are. Fully personalised 50-minute sessions covering strength, toning, mobility, posture correction, or fitness preparation, built around what your body needs.",
+    pricing: "€120 / session, or €95 / session on a daily weekly programme",
   },
 ];
 
@@ -32,7 +32,7 @@ const approaches = [
     name: "Sculpt & Define",
     tagline: "Strength through precision",
     description:
-      "A focused full-body session centred on core stability, muscle endurance, and refined movement control. Each exercise is performed with intentionality — slower, deeper, more effective. For anyone ready to build genuine strength without impact or bulk.",
+      "A focused full-body session centred on core stability, muscle endurance, and refined movement control. Each exercise is performed with intentionality: slower, deeper, more effective. For anyone ready to build genuine strength without impact or bulk.",
     note: "Suitable for all levels with appropriate modification.",
     image: "/image00007.jpeg",
   },
@@ -48,7 +48,7 @@ const approaches = [
     name: "Foundation",
     tagline: "The perfect place to begin",
     description:
-      "A step-by-step introduction to Pilates principles — breathing, spinal alignment, pelvic stability, and postural awareness. No prior experience required. An essential starting point for anyone new, returning after a break, or recovering from injury.",
+      "A step-by-step introduction to Pilates principles: breathing, spinal alignment, pelvic stability, and postural awareness. No prior experience required. An essential starting point for anyone new, returning after a break, or recovering from injury.",
     note: "Ideal for beginners and those returning to movement.",
     image: "/image000010.jpeg",
   },
@@ -56,12 +56,12 @@ const approaches = [
 
 const benefits = [
   "Improved posture and spinal alignment through consistent mindful movement",
-  "Increased core strength — deep stabilising muscles rarely targeted in conventional exercise",
+  "Increased core strength, targeting deep stabilising muscles rarely reached in conventional exercise",
   "Greater body awareness, helping you move more efficiently in daily life",
   "Reduced muscle tension and relief from chronic tightness, particularly in the back and hips",
   "Better balance, coordination, and overall functional fitness",
   "Enhanced breathing capacity and nervous system regulation",
-  "A consistent, sustainable movement practice — adapted to you, not the other way around",
+  "A consistent, sustainable movement practice, adapted to you, not the other way around",
 ];
 
 export default function AboutPage() {
@@ -88,7 +88,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 text-warm-grey leading-relaxed">
                 <p>
-                  Lea Studio brings expert Pilates and fitness coaching directly to you —
+                  Lea Studio brings expert Pilates and fitness coaching directly to you,
                   at your villa, chalet, yacht, hotel, or home. Every session is 50 minutes,
                   entirely private, and built around your body and your goals.
                 </p>
@@ -96,7 +96,7 @@ export default function AboutPage() {
                   Léa works in Saint-Tropez and Courchevel, adapting seamlessly
                   to your location and lifestyle. Whether you prefer Pilates Mat, Reformer,
                   strength and toning, or mobility work, each session is designed from scratch
-                  for you — never a template, never a compromise.
+                  for you. Never a template, never a compromise.
                 </p>
                 <p>
                   Sessions are available individually or as part of a daily weekly programme,

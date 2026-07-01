@@ -73,7 +73,7 @@ export default function Nav() {
           transparent ? "bg-transparent border-none" : "bg-sage border-b border-sage-dark"
         }`}
       >
-        <div className="px-8 md:px-16 py-3 flex items-center justify-between gap-8">
+        <div className="px-8 md:px-16 py-3 flex items-center justify-between gap-8 relative">
           {/* Left nav — desktop */}
           <nav className="hidden md:flex items-center gap-8 flex-1">
             {leftLinks.map((l) => (
@@ -82,7 +82,7 @@ export default function Nav() {
           </nav>
 
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 mx-auto md:mx-0">
+          <Link href="/" className="flex-shrink-0 absolute left-1/2 -translate-x-1/2 md:static md:left-auto md:translate-x-0">
             <Image
               src="/LogoBar.png"
               alt="Lea Studio"

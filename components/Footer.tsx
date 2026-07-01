@@ -16,7 +16,7 @@ export default function Footer() {
             className="object-contain object-left"
           />
           <p className="text-xs text-warm-grey leading-relaxed">
-            Private Pilates & fitness coaching — Saint-Tropez & Courchevel.
+            Private Pilates & fitness coaching. Saint-Tropez & Courchevel.
           </p>
         </div>
 

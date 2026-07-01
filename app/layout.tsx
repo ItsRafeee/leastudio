@@ -4,9 +4,9 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Lea Studio — Private Pilates & Fitness Coaching",
+  title: "Lea Studio | Private Pilates & Fitness Coaching",
   description:
-    "Private Pilates & fitness coaching with Léa. 1-to-1 sessions in Saint-Tropez and Courchevel — tailored to your body and your goals.",
+    "Private Pilates & fitness coaching with Léa. 1-to-1 sessions in Saint-Tropez and Courchevel, tailored to your body and your goals.",
   icons: {
     icon: [
       { url: "/favicon_io/favicon.ico" },
